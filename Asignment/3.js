@@ -1,4 +1,4 @@
-let x = 22
+let x = 2
 if (x >= 0){
     console.log('Number is Positive')
 } else {
