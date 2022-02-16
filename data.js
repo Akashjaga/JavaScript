@@ -19,7 +19,5 @@ let Employees = [{"id":1,"first_name":"Teador","last_name":"Mussared","email":"t
 {"id":19,"first_name":"Bernice","last_name":"Chape","email":"bchapei@seattletimes.com","gender":"Male"},
 {"id":20,"first_name":"Merrilee","last_name":"Ragless","email":"mraglessj@netscape.com","gender":"Female"}]
 for ( Emp of Employees){
-    console.log(Emp.id)
-    console.log(Emp.first_name)
-    console.log(Emp.email)
+    console.log(Emp.last_name)
 }
