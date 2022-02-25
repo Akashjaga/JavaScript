@@ -18,7 +18,6 @@ let Employees =  [{"id":1,"first_name":"Teador","last_name":"Mussared","email":"
 {"id":18,"first_name":"Rollin","last_name":"Cordy","email":"rcordyh@ocn.ne.jp","gender":"Male"},
 {"id":19,"first_name":"Bernice","last_name":"Chape","email":"bchapei@seattletimes.com","gender":"Male"},
 {"id":20,"first_name":"Merrilee","last_name":"Ragless","email":"mraglessj@netscape.com","gender":"Female"}]
-
 function Akash () {
     let rows = "";
     for (emp of Employees){
