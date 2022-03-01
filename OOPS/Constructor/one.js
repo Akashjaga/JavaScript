@@ -1,9 +1,10 @@
-class Bank {
-    constructor(a, b, c){
-        this.ID=a;
-        this.Name=b;
-        this.Amount=c;
+class employee {
+    constructor(a,b,c,d){
+    this.Num=a
+    this.Numb=b
+    this.Name=c
+    this.Names=d
     }
 }
-let a1= new Bank (1, "Akash", 50000);
-console.log(a1)
+let a=new employee (01, 101, "Akash", "Sonu")
+console.log(a)
