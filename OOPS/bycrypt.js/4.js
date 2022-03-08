@@ -1,11 +1,12 @@
 const bcrypt = require ('bcryptjs')
-let user = {name:'Akash', pass:'sonu@12345'}
+let user = {name:"Akash", email:'akashjagadish22@gmail.com', pass:'123456'}
 
-let salt = bcrypt.genSaltSync(10)
-let new_password = bcrypt.hashSync(user.pass, salt)
+let salt=bcrypt.genSaltSync(10);
+let new_pass=bcrypt.hashSync(user.email, salt)
+let new_email=bcrypt.hashSync(user.pass, salt)
+let new_user= {...user, pass:new_pass, email:new_email}
 
-let new_user = {...user, pass:new_password}
 console.log(new_user)
 
-let flag = bcrypt.compareSync('sonu@1235', new_user.pass)
-flag?console.log('correct password'): console.log('incorrect password')
+let flag= bcrypt.compareSync('1223456', new_user.pass)
+flag?console.log('pass'):console.log('fail')
