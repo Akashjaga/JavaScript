@@ -1,7 +1,7 @@
 let a = 700;
 let b = 600;
 if (a > b){
-    console.log('a is greater than b')
+    console.log('a is greater than b');
 }else {
-    console.log('b is greater than A') 
+    console.log('b is greater than A');
 }
