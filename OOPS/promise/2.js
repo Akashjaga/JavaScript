@@ -1,12 +1,15 @@
-let a = new Promise ((resolve, reject)=>{
-    let b = false;
-    if(b){
-        resolve("working like a pro")
-    }else {
-        reject("not wornig at all")
-    }
+let table = new Promise ((resolve, reject)=>{
+let a = true
+if(a){
+    resolve("good morning")
+} else {
+    reject ("good night")
+}
 })
-a.then((err)=>{console.log(err)}).
-catch((message)=>{
+
+table.then((message)=>{
     console.log(message)
+})
+.catch((err)=>{
+    console.log(err)
 })
